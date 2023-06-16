@@ -1,0 +1,273 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: #FEFDFE;
+    background-image: url(../img/background.png);
+    background-size: 20%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* MENÚ */
+
+.bgnav{
+    background-color: #564d70;
+}
+
+.colortext{
+    color: #e7dcff !important;
+    font-weight: 600;
+    margin: 5px;
+    font-size: 14px;
+}
+
+.colortext:hover{
+    color: #a688ec !important;
+}
+
+.hamburguesa{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.90%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.bordehamburguesa{
+    border: 1.5px solid white;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.logo{
+    transition: all 200ms ease-in-out;
+}
+
+.logo:hover{
+    transform: rotate(20deg);
+}
+
+/* FIN MENÚ */
+
+/* FOOTER */
+
+footer{
+    background-color: #564d70;
+    margin-top: auto;
+}
+
+.p-footer{
+    margin-top: 13px;
+    color: #C6B8E6;
+    font-size: 12px;
+}
+
+/* FIN FOOTER */
+
+/* INDEX */
+
+/* HEADER */
+
+.contenedor-header{
+    padding: 0 !important;
+    padding-top: 70px !important;
+}
+
+.titulo-h1{
+    color: #8471AE !important;
+    font-size: 70px;
+}
+
+.intro-co{
+    color: #1a0d06;
+    margin: 5px !important;
+}
+
+.boton1{
+    background-color: #8471AE;
+    border: none;
+    border-radius: 30px;
+    transition: all 200ms ease-in-out;
+    text-decoration: none;
+}
+
+.boton1:hover{
+    color: #491E1A !important;
+    background-color: #c6b8e6 !important;
+}
+
+/* FIN HEADER */
+
+/* CÓMO COMENZÓ */
+
+.bg-comocomenzo{
+    background-color: #585560;
+}
+
+.titulo-comocomenzo{
+    color: #c6b8e6 !important;
+}
+
+.redvelvet{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+/* FIN CÓMO COMENZÓ */
+
+/* ESPECIALIDADES */
+
+.segundo-titulo{
+    color: #585560 !important;
+}
+
+.esp-rv, .esp-choco, .esp-chee{
+    background-color: #c6b8e6;
+    border-radius: 25px;
+    transition: all 200ms ease-in-out;
+}
+
+.esp-rv:hover, .esp-choco:hover, .esp-chee:hover{
+    transform: scale(101%);
+}
+
+
+.boton2{
+    color: white;
+    background-color: #755ea7;
+    border-radius: 25px;
+    border: 0;
+    transition: all 200ms ease-in-out;
+}
+
+.boton2:hover{
+    color: white !important;
+    background-color: #56369b !important;
+}
+
+.desc-rv, .desc-choco, .desc-chee{
+    font-weight: 300;   
+    font-size: 15px;
+    margin: 15px;
+}
+
+.desc-rv{
+    padding-bottom: 6px;
+}
+
+.desc-chee{
+    padding-bottom: 5px;
+}
+
+h3{
+    color: #755ea7;
+}
+
+/* FIN ESPECIALIDADES */
+
+/* GALERÍA */
+
+.c-img{
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+
+/* FIN GALERÍA */
+
+/* QUIÉNES SOMOS */
+
+.accor{
+    background-color: #dad0f1 !important;
+    color: #755ea7 !important;
+}
+
+.accor:hover{
+    color: #491E1A !important;
+    background-color: #dad0f1 !important;
+}
+
+/* FIN QUIÉNES SOMOS */
+
+/* SERVICIOS */
+
+.bg-servicios{
+    background-color: rgba(214, 201, 243, 0.3)
+}
+
+.divider{
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(214, 201, 243, 0.3);
+    border: solid rgba(0, 0, 0, 0.1);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .05), inset 0 .125em .5em rgba(0, 0, 0, .1);
+    padding-top: 10px;
+}
+
+.img-anim{
+    transition: all 200ms ease-in-out;
+}
+
+.img-anim:hover{
+    transform: scale(101%);
+}
+
+/* FIN SERVICIOS */
+
+/* CONTÁCTANOS */
+
+.form-ind{
+    color: #755ea7;
+}
+
+.boton3{
+    color: white;
+    background-color: #585560;
+    border-radius: 25px;
+    border: 0;
+    transition: all 200ms ease-in-out;
+}
+
+.boton3:hover{
+    color: white !important;
+    background-color: #2b2a30 !important;
+}
+
+/* FIN CONTÁCTANOS */
+
+/* RESPONSIVE MOBILE */
+
+@media (min-width: 320px) and (max-width: 767px){
+
+.logo{
+    transition: all 200ms ease-in-out;
+}
+
+h1{
+    font-size: 48px !important;
+}
+
+.fila{
+    flex-direction: column;
+}
+
+.esp-rv, .esp-choco, .esp-chee{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    transition: all 200ms ease-in-out;
+}
+
+.card-cargos{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    padding: 10px;
+}
+
+.c-img{
+    padding-bottom: 0;
+}
+}
